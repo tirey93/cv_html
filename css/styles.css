@@ -1,0 +1,68 @@
+body {
+    background: rgb(204,204,204); 
+  }
+  page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+  @media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
+  .grid-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .section {
+    padding: 0 12px;
+    font-size: 12px;
+    /* font-family: "Times New Roman", Times, serif; */
+  }
+  
+    /* *************Sidebar*************** */
+  .sidebar {
+    background: #003C73;
+    color: #ECFFF8;
+    box-sizing: border-box;
+  }
+  .surname {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: xx-large;
+    margin: 15px 0;
+  }
+  .position {
+    font-family: 'Press Start 2P', cursive;
+    font-size: smaller;
+  }
+  img {
+    width: 7cm;
+    height: 8cm;
+    margin: 10px -12px;
+  }
+
+  .blank-block{
+    background: #002140;
+    margin: 0 -12px;
+    padding: 10px 15px;
+  }
+  .personal-info p{
+    margin-top: 0;
+  }
+  .personal-info h1{
+    margin-bottom: 0;
+  }
+
+    /* *************Content*************** */
+
+    .main-content {
+      box-sizing: border-box;
+    }

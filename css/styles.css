@@ -43,9 +43,13 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: smaller;
   }
+
   img {
-    width: 7cm;
-    height: 8cm;
+    display: block;
+    max-width:7cm;
+    max-height:8cm;
+    width: auto;
+    height: auto;
     margin: 10px -20px;
   }
 
@@ -97,4 +101,19 @@ body {
       font-size: x-large;
       border-top-style: solid;
       border-bottom-style: solid;
+      margin-top: 20px;
+    }
+    .divide-main{
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      align-items: baseline;
+      flex-direction: row;
+      font-size: medium;
+    }
+    .main-date-part{
+      min-width: 70px;
+    }
+    .divide-bullets{
+      display: flex;
     }

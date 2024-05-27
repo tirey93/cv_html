@@ -118,3 +118,16 @@ body {
     .divide-bullets{
       display: flex;
     }
+    .consent{
+      position: absolute;
+      bottom: -1345px;  
+      max-width: 500px;
+      font-size: smaller;
+      color: darkgray;
+    }
+
+    @media print {
+      .consent{
+        bottom: -1115px;  
+      }
+    }

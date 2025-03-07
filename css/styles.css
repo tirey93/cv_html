@@ -27,6 +27,17 @@ body {
     font-size: 12px;
     /* font-family: "Times New Roman", Times, serif; */
   }
+  .material-symbols-outlined {
+    font-size:40px !important;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 30;
+  }
+  .material-symbols-outlined.content {
+    transform: translateY(11px);
+  }
   
     /* *************Sidebar*************** */
   .sidebar {
@@ -100,9 +111,13 @@ body {
       font-weight: bold;
       color: #474b4d;
       font-size: x-large;
-      border-top-style: solid;
-      border-bottom-style: solid;
       margin-top: 20px;
+      padding-left: 15px;
+    }
+    .line-divider {
+      width:100%;
+      text-align:left;
+      margin-left:0
     }
     .divide-main{
       display: flex;

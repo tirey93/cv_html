@@ -25,7 +25,6 @@ body {
   .section {
     padding: 0 20px;
     font-size: 12px;
-    /* font-family: "Times New Roman", Times, serif; */
   }
   .material-symbols-outlined {
     font-size:40px !important;
@@ -50,15 +49,7 @@ body {
     color: #ECFFF8;
     box-sizing: border-box;
     min-width: 295px;
-  }
-  .surname {
-    font-family: 'Bruno Ace SC', cursive;
-    font-size: xx-large;
-    margin: 15px 0;
-  }
-  .position {
-    font-family: 'Press Start 2P', cursive;
-    font-size: smaller;
+    font-family: 'Nunito', sans-serif;
   }
 
   .image {
@@ -85,6 +76,7 @@ body {
   }
   .main-header.main-sidebar {
     font-family: 'Nunito', sans-serif;
+    font-size: x-large;
   }
   .skill-line{
     display: flex;
@@ -111,9 +103,25 @@ body {
       font-family: "Roboto Flex", sans-serif;
       box-sizing: border-box;
     }
+
+    .surname {
+      font-family: 'Press Start 2P', cursive;
+      font-size: x-large;
+      margin-top: 45px;
+    }
+    .position {
+      font-family: 'Press Start 2P', cursive;
+      font-size: smaller;
+    }
+
+    .phrase-wrap {
+      margin: 30px 0;
+    }
     .phrase{
-      margin-left: 100px;
-      margin-right: 160px;
+      text-align: right;
+      margin-left: 184px;
+      margin-right: 36px;
+
       padding: 0;
       font-style: italic;
       font-weight: bold;
@@ -148,7 +156,7 @@ body {
     .consent{
       position: absolute;
       bottom: -1345px;  
-      max-width: 500px;
+      max-width: 450px;
       font-size: smaller;
       color: darkgray;
     }

@@ -38,14 +38,18 @@ body {
   .material-symbols-outlined.content {
     transform: translateY(11px);
   }
+  .material-symbols-outlined.material-sidebar {
+    margin-bottom: 10px;    
+    transform: translateY(11px);
+    color: grey;
+  }
   
     /* *************Sidebar*************** */
   .sidebar {
-    background: #c0c0c0;
+    background: #dbdbe0;
     color: #ECFFF8;
     box-sizing: border-box;
     min-width: 295px;
-    
   }
   .surname {
     font-family: 'Bruno Ace SC', cursive;
@@ -71,26 +75,29 @@ body {
   }
   .personal-info {
     background-color: #474b4d;
-    margin: -20px -20px 25px -20px;
+    margin: -20px -20px 0px -20px;
     padding: 20px;
   }
   .skills{
     display: flex;
     justify-content: space-between;
+    color: gray;
   }
   .skill-line{
     display: flex;
     justify-content: space-between;
     margin: 15px 0;
-    color: gray;
+    color: grey;
+  }
+  .skill-name {
+    font-weight: bold;
+    font-size: larger;
   }
   .fa-star{
     font-size: large;
-    color: gray;
     opacity: 0.5;
   }
   .checked {
-    color: gray;
     opacity: 1;
   }
 

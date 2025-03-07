@@ -83,6 +83,9 @@ body {
     justify-content: space-between;
     color: gray;
   }
+  .main-header.main-sidebar {
+    font-family: 'Nunito', sans-serif;
+  }
   .skill-line{
     display: flex;
     justify-content: space-between;
@@ -92,6 +95,7 @@ body {
   .skill-name {
     font-weight: bold;
     font-size: larger;
+    font-family: 'Nunito', sans-serif;
   }
   .fa-star{
     font-size: large;
@@ -104,6 +108,7 @@ body {
     /* *************Content*************** */
 
     .main-content {
+      font-family: "Roboto Flex", sans-serif;
       box-sizing: border-box;
     }
     .phrase{

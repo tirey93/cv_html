@@ -156,6 +156,10 @@ body {
     .divide-bullets{
       display: flex;
     }
+    .divide-main {
+      display: flex;
+      justify-content: space-between;
+    }
     .consent{
       position: absolute;
       bottom: -1345px;  

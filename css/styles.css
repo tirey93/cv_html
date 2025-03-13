@@ -69,6 +69,9 @@ body {
     margin: -20px -20px 0px -20px;
     padding: 20px;
   }
+  .contact-element1 {
+    margin-bottom: 1px;
+  }
   .skills{
     display: flex;
     justify-content: space-between;

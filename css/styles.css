@@ -161,14 +161,16 @@ body {
     }
     .divide-bullets{
       display: flex;
+      margin-bottom: 50px;
     }
     .divide-main {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 50px;
     }
     .consent{
       position: absolute;
-      bottom: -1345px;  
+      bottom: -1124px;  
       max-width: 450px;
       font-size: smaller;
       color: darkgray;

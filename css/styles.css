@@ -108,15 +108,16 @@ body {
     }
 
     .surname {
-      font-family: 'Press Start 2P', cursive;
-      font-size: x-large;
+      font-weight: bold;
+      font-size: xx-large;
       margin-top: 45px;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       color: rgb(184, 80, 80);
     }
     .position {
-      font-family: 'Press Start 2P', cursive;
-      font-size: smaller;
+      font-weight: bold;
+      font-size: medium;
+      margin-top: 0px;
       color: rgb(184, 80, 80);;
     }
 
@@ -174,6 +175,30 @@ body {
       max-width: 450px;
       font-size: smaller;
       color: darkgray;
+    }
+
+    .tech-tags-cloud {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .tech-tag {
+        --tag-bg-color: #dbdbe0; /* Bardzo jasne tło dla tagu */
+
+        background-color: var(--tag-bg-color);
+        color: var(--primary-color);
+        padding: 0.2rem 0.4rem;
+        border-radius: 16px; /* Zaokrąglone rogi - "pill" shape */
+        font-size: 0.5rem;
+        font-weight: 500;
+        border: 1px solid var(--primary-color);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease;
+        /* Zapobiega zawijaniu się tekstu w tagu */
+        white-space: nowrap;
     }
 
     @media print {

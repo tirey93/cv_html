@@ -63,11 +63,16 @@ body {
   }
   .personal-info h1{
     margin-bottom: 0;
+    font-weight: bold;
+    font-size: larger;
   }
   .personal-info {
     background-color: #474b4d;
     margin: -20px -20px 0px -20px;
-    padding: 20px;
+    padding: 20px 20px 5px;
+  }
+  .personal-info-element {
+    margin-bottom: 20px;
   }
   .contact-element1 {
     margin-bottom: 1px;

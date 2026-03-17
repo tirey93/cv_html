@@ -229,17 +229,17 @@ body {
 
     .project-role {
       font-weight: bold;
-      font-size: medium;
+      font-size: large;
     }
 
     .project-company-name {
-      font-size: medium;
+      font-size: 0.875rem;
       color: #474b4d;
       margin-left: 4px;
     }
 
     .project-dates {
-      font-size: 0.7rem;
+      font-size: 0.875rem;
       color: #6b6b6b;
       white-space: nowrap;
       margin-left: 10px;
@@ -257,7 +257,7 @@ body {
     }
 
     .project-item-name {
-      font-size: small;
+      font-size: 0.875rem;
       font-weight: bold;
       color: #474b4d;
     }

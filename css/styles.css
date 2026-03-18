@@ -269,46 +269,36 @@ body {
       margin-top: 6px;
     }
 
-    .project-tech-tag-red {
-      background-color: #f5e8e8;
-      color: #474b4d;
+    .project-tech-tag-red,
+    .project-tech-tag-blue,
+    .project-tech-tag-yellow,
+    .project-tech-tag-green {
+      display: inline-block;
       padding: 3px 9px;
       border-radius: 12px;
       font-size: 0.75rem;
       font-weight: 600;
       border: none;
       white-space: nowrap;
+      margin-top: 4px;
+    }
+
+    .project-tech-tag-red {
+      background-color: #f5e8e8;
+      color: #474b4d;
     }
 
     .project-tech-tag-blue {
       background-color: #e8eef5;
       color: #474b4d;
-      padding: 3px 9px;
-      border-radius: 12px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      border: none;
-      white-space: nowrap;
     }
 
     .project-tech-tag-yellow {
       background-color: #f5f2e8;
       color: #474b4d;
-      padding: 3px 9px;
-      border-radius: 12px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      border: none;
-      white-space: nowrap;
     }
 
     .project-tech-tag-green {
       background-color: #e8f5ec;
       color: #474b4d;
-      padding: 3px 9px;
-      border-radius: 12px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      border: none;
-      white-space: nowrap;
     }
